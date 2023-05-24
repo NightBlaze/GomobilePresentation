@@ -1,6 +1,6 @@
 .PHONY: all ios ios-sim ios-bind bind clear copy-assets gosec
 
-BIND_PACKAGES=./src
+BIND_PACKAGES=./src ./src/engine-widgets ./src/engine-widgets/downloadableimagewidget ./src/engine-widgets/feedwidget ./src/engine-widgets/settingswidget
 ASSETS=assets
 GO_FLAGS=
 

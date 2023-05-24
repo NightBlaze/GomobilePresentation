@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "auto-layout-sugar-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Heads-and-Hands/auto-layout-sugar-ios",
+      "state" : {
+        "revision" : "1b57b50cf4e6b7715634df41a565b6d94637ca3d",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "fps-counter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/konoma/fps-counter",
+      "state" : {
+        "revision" : "ce58ec45cae81990faabfce4d646138b37b4d9d0",
+        "version" : "4.1.0"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "0af9125c4eae12a4973fb66574c53a54962a9e1e",
+        "version" : "1.21.0"
+      }
+    }
+  ],
+  "version" : 2
+}

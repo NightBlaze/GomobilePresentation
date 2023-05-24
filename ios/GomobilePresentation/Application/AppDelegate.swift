@@ -5,15 +5,19 @@
 //  Created by Alexander Timonenkov on 23.05.2023.
 //
 
+import Engine
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let config = EngineInitializeConfig()
+
+        config.engineAssetsDirectory = FileManager.engineAssetsDirectoryForEngine
+        config.languageCode = Locale.current.identifier
+
+        EngineInitialize(config)
+
         return true
     }
 

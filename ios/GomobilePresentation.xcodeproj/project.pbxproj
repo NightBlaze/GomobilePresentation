@@ -13,6 +13,22 @@
 		FF05EE5C2A1CF624003E6F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF05EE5A2A1CF624003E6F8F /* Main.storyboard */; };
 		FF05EE5E2A1CF626003E6F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF05EE5D2A1CF626003E6F8F /* Assets.xcassets */; };
 		FF05EE612A1CF626003E6F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF05EE5F2A1CF626003E6F8F /* LaunchScreen.storyboard */; };
+		FF930D672A1E10B40049B43F /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF930D662A1E10B40049B43F /* FeedRouter.swift */; };
+		FF930D692A1E10E50049B43F /* FeedItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF930D682A1E10E50049B43F /* FeedItemCollectionViewCell.swift */; };
+		FF930D6B2A1E114C0049B43F /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF930D6A2A1E114C0049B43F /* AppUtils.swift */; };
+		FF930D6E2A1E11900049B43F /* SettingsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF930D6D2A1E11900049B43F /* SettingsWidgetView.swift */; };
+		FF930D702A1E11CC0049B43F /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF930D6F2A1E11CC0049B43F /* SettingsRouter.swift */; };
+		FFDFA07F2A1D06E500D64A7F /* Engine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDFA07E2A1D06E500D64A7F /* Engine.xcframework */; };
+		FFDFA08B2A1D07F000D64A7F /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA08A2A1D07F000D64A7F /* FileManager+Extensions.swift */; };
+		FFDFA08F2A1D0AE800D64A7F /* EngineAssets in Resources */ = {isa = PBXBuildFile; fileRef = FFDFA08E2A1D0AE800D64A7F /* EngineAssets */; };
+		FFDFA0922A1D1E7000D64A7F /* feedwidget_viewmodels.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA0912A1D1E6F00D64A7F /* feedwidget_viewmodels.pb.swift */; };
+		FFDFA0962A1D1EBE00D64A7F /* FeedWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA0952A1D1EBE00D64A7F /* FeedWidgetView.swift */; };
+		FFDFA0992A1D1EE300D64A7F /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = FFDFA0982A1D1EE300D64A7F /* SwiftProtobuf */; };
+		FFDFA09B2A1D1EE300D64A7F /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = FFDFA09A2A1D1EE300D64A7F /* SwiftProtobufPluginLibrary */; };
+		FFDFA09E2A1D1EFA00D64A7F /* AutoLayoutSugar in Frameworks */ = {isa = PBXBuildFile; productRef = FFDFA09D2A1D1EFA00D64A7F /* AutoLayoutSugar */; };
+		FFDFA0A12A1D1F2300D64A7F /* FPSCounter in Frameworks */ = {isa = PBXBuildFile; productRef = FFDFA0A02A1D1F2300D64A7F /* FPSCounter */; };
+		FFDFA0A62A1D1FA500D64A7F /* BaseWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA0A52A1D1FA500D64A7F /* BaseWidgetView.swift */; };
+		FFDFA0A82A1D1FC300D64A7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA0A72A1D1FC300D64A7F /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,19 @@
 		FF05EE5D2A1CF626003E6F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF05EE602A1CF626003E6F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF05EE622A1CF626003E6F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF930D662A1E10B40049B43F /* FeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
+		FF930D682A1E10E50049B43F /* FeedItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF930D6A2A1E114C0049B43F /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		FF930D6D2A1E11900049B43F /* SettingsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWidgetView.swift; sourceTree = "<group>"; };
+		FF930D6F2A1E11CC0049B43F /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		FFDFA07E2A1D06E500D64A7F /* Engine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Engine.xcframework; sourceTree = "<group>"; };
+		FFDFA0882A1D072D00D64A7F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FFDFA08A2A1D07F000D64A7F /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		FFDFA08E2A1D0AE800D64A7F /* EngineAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EngineAssets; sourceTree = "<group>"; };
+		FFDFA0912A1D1E6F00D64A7F /* feedwidget_viewmodels.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedwidget_viewmodels.pb.swift; sourceTree = "<group>"; };
+		FFDFA0952A1D1EBE00D64A7F /* FeedWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedWidgetView.swift; sourceTree = "<group>"; };
+		FFDFA0A52A1D1FA500D64A7F /* BaseWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWidgetView.swift; sourceTree = "<group>"; };
+		FFDFA0A72A1D1FC300D64A7F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDFA09E2A1D1EFA00D64A7F /* AutoLayoutSugar in Frameworks */,
+				FFDFA0A12A1D1F2300D64A7F /* FPSCounter in Frameworks */,
+				FFDFA09B2A1D1EE300D64A7F /* SwiftProtobufPluginLibrary in Frameworks */,
+				FFDFA07F2A1D06E500D64A7F /* Engine.xcframework in Frameworks */,
+				FFDFA0992A1D1EE300D64A7F /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,7 @@
 			children = (
 				FF05EE532A1CF624003E6F8F /* GomobilePresentation */,
 				FF05EE522A1CF624003E6F8F /* Products */,
+				FFDFA0872A1D072C00D64A7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,115 @@
 		FF05EE532A1CF624003E6F8F /* GomobilePresentation */ = {
 			isa = PBXGroup;
 			children = (
-				FF05EE542A1CF624003E6F8F /* AppDelegate.swift */,
-				FF05EE562A1CF624003E6F8F /* SceneDelegate.swift */,
-				FF05EE582A1CF624003E6F8F /* ViewController.swift */,
-				FF05EE5A2A1CF624003E6F8F /* Main.storyboard */,
-				FF05EE5D2A1CF626003E6F8F /* Assets.xcassets */,
-				FF05EE5F2A1CF626003E6F8F /* LaunchScreen.storyboard */,
+				FFDFA0A22A1D1F3F00D64A7F /* Application */,
+				FFDFA0892A1D079000D64A7F /* Extensions */,
+				FFDFA07D2A1D06E500D64A7F /* Frameworks */,
+				FFDFA0902A1D1E6F00D64A7F /* Protos */,
+				FFDFA0802A1D06EF00D64A7F /* Resources */,
+				FFDFA0A32A1D1F4E00D64A7F /* Screens */,
+				FFDFA0A42A1D1F7B00D64A7F /* Storyboards */,
+				FFDFA0932A1D1E9100D64A7F /* Widgets */,
 				FF05EE622A1CF626003E6F8F /* Info.plist */,
 			);
 			path = GomobilePresentation;
+			sourceTree = "<group>";
+		};
+		FF930D6C2A1E116B0049B43F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FF930D6F2A1E11CC0049B43F /* SettingsRouter.swift */,
+				FF930D6D2A1E11900049B43F /* SettingsWidgetView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FFDFA07D2A1D06E500D64A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA07E2A1D06E500D64A7F /* Engine.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDFA0802A1D06EF00D64A7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF05EE5D2A1CF626003E6F8F /* Assets.xcassets */,
+				FFDFA08E2A1D0AE800D64A7F /* EngineAssets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFDFA0872A1D072C00D64A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA0882A1D072D00D64A7F /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDFA0892A1D079000D64A7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA08A2A1D07F000D64A7F /* FileManager+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FFDFA0902A1D1E6F00D64A7F /* Protos */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA0912A1D1E6F00D64A7F /* feedwidget_viewmodels.pb.swift */,
+			);
+			path = Protos;
+			sourceTree = "<group>";
+		};
+		FFDFA0932A1D1E9100D64A7F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA0942A1D1EA700D64A7F /* Feed */,
+				FF930D6C2A1E116B0049B43F /* Settings */,
+				FFDFA0A52A1D1FA500D64A7F /* BaseWidgetView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		FFDFA0942A1D1EA700D64A7F /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				FF930D682A1E10E50049B43F /* FeedItemCollectionViewCell.swift */,
+				FF930D662A1E10B40049B43F /* FeedRouter.swift */,
+				FFDFA0952A1D1EBE00D64A7F /* FeedWidgetView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		FFDFA0A22A1D1F3F00D64A7F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FF05EE542A1CF624003E6F8F /* AppDelegate.swift */,
+				FF05EE562A1CF624003E6F8F /* SceneDelegate.swift */,
+				FF930D6A2A1E114C0049B43F /* AppUtils.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FFDFA0A32A1D1F4E00D64A7F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FF05EE582A1CF624003E6F8F /* ViewController.swift */,
+				FFDFA0A72A1D1FC300D64A7F /* BaseViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FFDFA0A42A1D1F7B00D64A7F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FF05EE5F2A1CF626003E6F8F /* LaunchScreen.storyboard */,
+				FF05EE5A2A1CF624003E6F8F /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +218,12 @@
 			dependencies = (
 			);
 			name = GomobilePresentation;
+			packageProductDependencies = (
+				FFDFA0982A1D1EE300D64A7F /* SwiftProtobuf */,
+				FFDFA09A2A1D1EE300D64A7F /* SwiftProtobufPluginLibrary */,
+				FFDFA09D2A1D1EFA00D64A7F /* AutoLayoutSugar */,
+				FFDFA0A02A1D1F2300D64A7F /* FPSCounter */,
+			);
 			productName = GomobilePresentation;
 			productReference = FF05EE512A1CF624003E6F8F /* GomobilePresentation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +252,11 @@
 				Base,
 			);
 			mainGroup = FF05EE482A1CF624003E6F8F;
+			packageReferences = (
+				FFDFA0972A1D1EE300D64A7F /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				FFDFA09C2A1D1EFA00D64A7F /* XCRemoteSwiftPackageReference "auto-layout-sugar-ios" */,
+				FFDFA09F2A1D1F2300D64A7F /* XCRemoteSwiftPackageReference "fps-counter" */,
+			);
 			productRefGroup = FF05EE522A1CF624003E6F8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF05EE612A1CF626003E6F8F /* LaunchScreen.storyboard in Resources */,
+				FFDFA08F2A1D0AE800D64A7F /* EngineAssets in Resources */,
 				FF05EE5E2A1CF626003E6F8F /* Assets.xcassets in Resources */,
 				FF05EE5C2A1CF624003E6F8F /* Main.storyboard in Resources */,
 			);
@@ -139,6 +286,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF05EE592A1CF624003E6F8F /* ViewController.swift in Sources */,
+				FF930D6B2A1E114C0049B43F /* AppUtils.swift in Sources */,
+				FFDFA0A62A1D1FA500D64A7F /* BaseWidgetView.swift in Sources */,
+				FF930D692A1E10E50049B43F /* FeedItemCollectionViewCell.swift in Sources */,
+				FFDFA08B2A1D07F000D64A7F /* FileManager+Extensions.swift in Sources */,
+				FF930D672A1E10B40049B43F /* FeedRouter.swift in Sources */,
+				FFDFA0962A1D1EBE00D64A7F /* FeedWidgetView.swift in Sources */,
+				FF930D6E2A1E11900049B43F /* SettingsWidgetView.swift in Sources */,
+				FFDFA0922A1D1E7000D64A7F /* feedwidget_viewmodels.pb.swift in Sources */,
+				FFDFA0A82A1D1FC300D64A7F /* BaseViewController.swift in Sources */,
+				FF930D702A1E11CC0049B43F /* SettingsRouter.swift in Sources */,
 				FF05EE552A1CF624003E6F8F /* AppDelegate.swift in Sources */,
 				FF05EE572A1CF624003E6F8F /* SceneDelegate.swift in Sources */,
 			);
@@ -362,6 +519,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FFDFA0972A1D1EE300D64A7F /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FFDFA09C2A1D1EFA00D64A7F /* XCRemoteSwiftPackageReference "auto-layout-sugar-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Heads-and-Hands/auto-layout-sugar-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FFDFA09F2A1D1F2300D64A7F /* XCRemoteSwiftPackageReference "fps-counter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konoma/fps-counter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FFDFA0982A1D1EE300D64A7F /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFDFA0972A1D1EE300D64A7F /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		FFDFA09A2A1D1EE300D64A7F /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFDFA0972A1D1EE300D64A7F /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		FFDFA09D2A1D1EFA00D64A7F /* AutoLayoutSugar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFDFA09C2A1D1EFA00D64A7F /* XCRemoteSwiftPackageReference "auto-layout-sugar-ios" */;
+			productName = AutoLayoutSugar;
+		};
+		FFDFA0A02A1D1F2300D64A7F /* FPSCounter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFDFA09F2A1D1F2300D64A7F /* XCRemoteSwiftPackageReference "fps-counter" */;
+			productName = FPSCounter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF05EE492A1CF624003E6F8F /* Project object */;
 }

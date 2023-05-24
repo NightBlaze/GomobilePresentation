@@ -1,0 +1,18 @@
+syntax = "proto3";
+option go_package = "/protos";
+
+message FeedItemViewModel {
+    string id = 1;
+    string caption = 2;
+    string title = 3;
+    string image_url = 4;
+}  
+
+message FeedItemLocalizableViewModel {
+    string id = 1;
+    string caption = 2;
+}
+
+message FeedLocalizationDidChangeViewModel {
+    repeated FeedItemLocalizableViewModel feed_items = 3;
+}
