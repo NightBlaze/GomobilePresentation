@@ -27,6 +27,11 @@ class ViewController: BaseViewController {
         super.viewDidLoad()
     }
 
+    deinit {
+        settingsWidgetView.free()
+        feedWidgetView.free()
+    }
+
     // MARK: - Private
 
     private func setupUI() {
